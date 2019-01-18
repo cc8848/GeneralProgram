@@ -1,0 +1,6 @@
+framework module Pods_GeneralProgramUat {
+  umbrella header "Pods-GeneralProgramUat-umbrella.h"
+
+  export *
+  module * { export * }
+}
