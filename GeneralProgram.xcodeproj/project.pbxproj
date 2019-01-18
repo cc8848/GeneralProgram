@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02E851C421F177FB00CA39ED /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 893CDE4721B92A24007CF536 /* libstdc++.6.0.9.tbd */; };
 		18857F285ED6DB89ECEDC325 /* Pods_GeneralProgramUat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93738FA33B13AC774399B00D /* Pods_GeneralProgramUat.framework */; };
 		1F612FF4C7BE828C59B60BEF /* Pods_GeneralProgram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 018E41D966D62079A3F37660 /* Pods_GeneralProgram.framework */; };
 		432DDF8C9532104D8A49F043 /* Pods_GeneralProgram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 018E41D966D62079A3F37660 /* Pods_GeneralProgram.framework */; };
@@ -90,7 +91,6 @@
 		893CDE4521B91EA3007CF536 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 893CDE2621B91EA3007CF536 /* UIView+WebCacheOperation.m */; };
 		893CDE4621B91EA3007CF536 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 893CDE2A21B91EA3007CF536 /* UIButton+WebCache.m */; };
 		893CDE4921B92A24007CF536 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 893CDE4721B92A24007CF536 /* libstdc++.6.0.9.tbd */; };
-		893CDE4A21B92A24007CF536 /* libstdc++.6.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 893CDE4821B92A24007CF536 /* libstdc++.6.tbd */; };
 		8971913121C0EA4D00DAC9A9 /* LJPeoplePickerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8971912B21C0EA4D00DAC9A9 /* LJPeoplePickerDelegate.m */; };
 		8971913221C0EA4D00DAC9A9 /* LJPeoplePickerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8971912B21C0EA4D00DAC9A9 /* LJPeoplePickerDelegate.m */; };
 		8971913321C0EA4D00DAC9A9 /* LJPeoplePickerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8971912B21C0EA4D00DAC9A9 /* LJPeoplePickerDelegate.m */; };
@@ -147,7 +147,6 @@
 		89A19AA121BA68AE0025C9D0 /* PageControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 893CDDA321B8F864007CF536 /* PageControlView.m */; };
 		89A19AA221BA68AE0025C9D0 /* JFImagePickerViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 893CDDF621B91EA3007CF536 /* JFImagePickerViewCell.m */; };
 		89A19AA421BA68AE0025C9D0 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 893CDE4721B92A24007CF536 /* libstdc++.6.0.9.tbd */; };
-		89A19AA521BA68AE0025C9D0 /* libstdc++.6.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 893CDE4821B92A24007CF536 /* libstdc++.6.tbd */; };
 		89A19AA621BA68AE0025C9D0 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 893CDDEB21B9084D007CF536 /* Photos.framework */; };
 		89A19AA721BA68AE0025C9D0 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 893CDDE921B90844007CF536 /* libsqlite3.tbd */; };
 		89A19AA821BA68AE0025C9D0 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 893CDDE721B90835007CF536 /* ImageIO.framework */; };
@@ -209,8 +208,6 @@
 		89A19AEB21BA698A0025C9D0 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 893CDE2221B91EA3007CF536 /* NSData+ImageContentType.m */; };
 		89A19AEC21BA698A0025C9D0 /* PageControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 893CDDA321B8F864007CF536 /* PageControlView.m */; };
 		89A19AED21BA698A0025C9D0 /* JFImagePickerViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 893CDDF621B91EA3007CF536 /* JFImagePickerViewCell.m */; };
-		89A19AEF21BA698A0025C9D0 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 893CDE4721B92A24007CF536 /* libstdc++.6.0.9.tbd */; };
-		89A19AF021BA698A0025C9D0 /* libstdc++.6.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 893CDE4821B92A24007CF536 /* libstdc++.6.tbd */; };
 		89A19AF121BA698A0025C9D0 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 893CDDEB21B9084D007CF536 /* Photos.framework */; };
 		89A19AF221BA698A0025C9D0 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 893CDDE921B90844007CF536 /* libsqlite3.tbd */; };
 		89A19AF321BA698A0025C9D0 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 893CDDE721B90835007CF536 /* ImageIO.framework */; };
@@ -273,7 +270,6 @@
 		89A19B8121BA69EF0025C9D0 /* PageControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 893CDDA321B8F864007CF536 /* PageControlView.m */; };
 		89A19B8221BA69EF0025C9D0 /* JFImagePickerViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 893CDDF621B91EA3007CF536 /* JFImagePickerViewCell.m */; };
 		89A19B8421BA69EF0025C9D0 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 893CDE4721B92A24007CF536 /* libstdc++.6.0.9.tbd */; };
-		89A19B8521BA69EF0025C9D0 /* libstdc++.6.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 893CDE4821B92A24007CF536 /* libstdc++.6.tbd */; };
 		89A19B8621BA69EF0025C9D0 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 893CDDEB21B9084D007CF536 /* Photos.framework */; };
 		89A19B8721BA69EF0025C9D0 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 893CDDE921B90844007CF536 /* libsqlite3.tbd */; };
 		89A19B8821BA69EF0025C9D0 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 893CDDE721B90835007CF536 /* ImageIO.framework */; };
@@ -336,7 +332,6 @@
 		89A19BCC21BA6A230025C9D0 /* PageControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 893CDDA321B8F864007CF536 /* PageControlView.m */; };
 		89A19BCD21BA6A230025C9D0 /* JFImagePickerViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 893CDDF621B91EA3007CF536 /* JFImagePickerViewCell.m */; };
 		89A19BCF21BA6A230025C9D0 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 893CDE4721B92A24007CF536 /* libstdc++.6.0.9.tbd */; };
-		89A19BD021BA6A230025C9D0 /* libstdc++.6.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 893CDE4821B92A24007CF536 /* libstdc++.6.tbd */; };
 		89A19BD121BA6A230025C9D0 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 893CDDEB21B9084D007CF536 /* Photos.framework */; };
 		89A19BD221BA6A230025C9D0 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 893CDDE921B90844007CF536 /* libsqlite3.tbd */; };
 		89A19BD321BA6A230025C9D0 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 893CDDE721B90835007CF536 /* ImageIO.framework */; };
@@ -631,6 +626,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89A19C1C21BA75E30025C9D0 /* libc++.tbd in Frameworks */,
 				89A19C3821BA774D0025C9D0 /* CoreMotion.framework in Frameworks */,
 				89A19C2C21BA765A0025C9D0 /* CFNetwork.framework in Frameworks */,
 				89A19C2A21BA76530025C9D0 /* Foundation.framework in Frameworks */,
@@ -640,9 +636,7 @@
 				89A19C2221BA76180025C9D0 /* QuartzCore.framework in Frameworks */,
 				89A19C2021BA760D0025C9D0 /* CoreTelephony.framework in Frameworks */,
 				89A19C1E21BA75FA0025C9D0 /* SystemConfiguration.framework in Frameworks */,
-				89A19C1C21BA75E30025C9D0 /* libc++.tbd in Frameworks */,
 				893CDE4921B92A24007CF536 /* libstdc++.6.0.9.tbd in Frameworks */,
-				893CDE4A21B92A24007CF536 /* libstdc++.6.tbd in Frameworks */,
 				893CDDEC21B9084D007CF536 /* Photos.framework in Frameworks */,
 				893CDDEA21B90844007CF536 /* libsqlite3.tbd in Frameworks */,
 				893CDDE821B90835007CF536 /* ImageIO.framework in Frameworks */,
@@ -686,6 +680,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89A19C2D21BA76D00025C9D0 /* libc++.tbd in Frameworks */,
+				89A19AA421BA68AE0025C9D0 /* libstdc++.6.0.9.tbd in Frameworks */,
 				899D249F21BE57DE0035DEB8 /* Pods_GeneralProgram.framework in Frameworks */,
 				89A19C3721BA77370025C9D0 /* CoreMotion.framework in Frameworks */,
 				89A19C3521BA77290025C9D0 /* CFNetwork.framework in Frameworks */,
@@ -696,9 +692,6 @@
 				89A19C3021BA76FA0025C9D0 /* QuartzCore.framework in Frameworks */,
 				89A19C2F21BA76EF0025C9D0 /* CoreTelephony.framework in Frameworks */,
 				89A19C2E21BA76DD0025C9D0 /* SystemConfiguration.framework in Frameworks */,
-				89A19C2D21BA76D00025C9D0 /* libc++.tbd in Frameworks */,
-				89A19AA421BA68AE0025C9D0 /* libstdc++.6.0.9.tbd in Frameworks */,
-				89A19AA521BA68AE0025C9D0 /* libstdc++.6.tbd in Frameworks */,
 				89A19AA621BA68AE0025C9D0 /* Photos.framework in Frameworks */,
 				89A19AA721BA68AE0025C9D0 /* libsqlite3.tbd in Frameworks */,
 				89A19AA821BA68AE0025C9D0 /* ImageIO.framework in Frameworks */,
@@ -726,6 +719,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89A19C3921BA775D0025C9D0 /* libc++.tbd in Frameworks */,
+				02E851C421F177FB00CA39ED /* libstdc++.6.0.9.tbd in Frameworks */,
 				89A19C4221BA77B90025C9D0 /* CoreMotion.framework in Frameworks */,
 				89A19C4121BA77B10025C9D0 /* CFNetwork.framework in Frameworks */,
 				89A19C4021BA77AB0025C9D0 /* Foundation.framework in Frameworks */,
@@ -735,9 +730,6 @@
 				89A19C3C21BA77750025C9D0 /* QuartzCore.framework in Frameworks */,
 				89A19C3B21BA776A0025C9D0 /* CoreTelephony.framework in Frameworks */,
 				89A19C3A21BA77620025C9D0 /* SystemConfiguration.framework in Frameworks */,
-				89A19C3921BA775D0025C9D0 /* libc++.tbd in Frameworks */,
-				89A19AEF21BA698A0025C9D0 /* libstdc++.6.0.9.tbd in Frameworks */,
-				89A19AF021BA698A0025C9D0 /* libstdc++.6.tbd in Frameworks */,
 				89A19AF121BA698A0025C9D0 /* Photos.framework in Frameworks */,
 				89A19AF221BA698A0025C9D0 /* libsqlite3.tbd in Frameworks */,
 				89A19AF321BA698A0025C9D0 /* ImageIO.framework in Frameworks */,
@@ -765,6 +757,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89A19C4321BA77D40025C9D0 /* libc++.tbd in Frameworks */,
 				89A19C4C21BA781C0025C9D0 /* CoreMotion.framework in Frameworks */,
 				89A19C4B21BA78150025C9D0 /* CFNetwork.framework in Frameworks */,
 				89A19C4A21BA780D0025C9D0 /* Foundation.framework in Frameworks */,
@@ -774,9 +767,7 @@
 				89A19C4621BA77E90025C9D0 /* QuartzCore.framework in Frameworks */,
 				89A19C4521BA77E10025C9D0 /* CoreTelephony.framework in Frameworks */,
 				89A19C4421BA77DA0025C9D0 /* SystemConfiguration.framework in Frameworks */,
-				89A19C4321BA77D40025C9D0 /* libc++.tbd in Frameworks */,
 				89A19B8421BA69EF0025C9D0 /* libstdc++.6.0.9.tbd in Frameworks */,
-				89A19B8521BA69EF0025C9D0 /* libstdc++.6.tbd in Frameworks */,
 				89A19B8621BA69EF0025C9D0 /* Photos.framework in Frameworks */,
 				89A19B8721BA69EF0025C9D0 /* libsqlite3.tbd in Frameworks */,
 				89A19B8821BA69EF0025C9D0 /* ImageIO.framework in Frameworks */,
@@ -804,6 +795,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89A19C4D21BA782A0025C9D0 /* libc++.tbd in Frameworks */,
 				89A19C5621BA78700025C9D0 /* CoreMotion.framework in Frameworks */,
 				89A19C5521BA78690025C9D0 /* CFNetwork.framework in Frameworks */,
 				89A19C5421BA78630025C9D0 /* Foundation.framework in Frameworks */,
@@ -813,9 +805,7 @@
 				89A19C5021BA783F0025C9D0 /* QuartzCore.framework in Frameworks */,
 				89A19C4F21BA78370025C9D0 /* CoreTelephony.framework in Frameworks */,
 				89A19C4E21BA78300025C9D0 /* SystemConfiguration.framework in Frameworks */,
-				89A19C4D21BA782A0025C9D0 /* libc++.tbd in Frameworks */,
 				89A19BCF21BA6A230025C9D0 /* libstdc++.6.0.9.tbd in Frameworks */,
-				89A19BD021BA6A230025C9D0 /* libstdc++.6.tbd in Frameworks */,
 				89A19BD121BA6A230025C9D0 /* Photos.framework in Frameworks */,
 				89A19BD221BA6A230025C9D0 /* libsqlite3.tbd in Frameworks */,
 				89A19BD321BA6A230025C9D0 /* ImageIO.framework in Frameworks */,
@@ -2428,8 +2418,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2L98437J77;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = B4B36MFK64;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ThirdPartyView/ShareSdk/share/SDK/ShareSDK/Support/Required",
@@ -2498,7 +2488,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.movit.GeneralProgram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = devTest;
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
@@ -2510,8 +2500,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2L98437J77;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ThirdPartyView/ShareSdk/share/SDK/ShareSDK/Support/Required",
@@ -2592,8 +2582,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2L98437J77;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ThirdPartyView/ShareSdk/share/SDK/ShareSDK/Support/Required",
@@ -2636,8 +2626,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2L98437J77;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ThirdPartyView/ShareSdk/share/SDK/ShareSDK/Support/Required",
